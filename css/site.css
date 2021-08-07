@@ -1,0 +1,63 @@
+
+main>.container {
+    padding: 60px 15px 0;
+}
+
+main> .container-fluid{
+	padding-top: 55px;
+}
+
+body> main{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.homeBG {
+    width: 100%;
+    background: url(/img/GridBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gradientBG {
+    width: 100%;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.homeText{
+    font-family: modesto-open-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(195, 255, 0)
+}
+
+.minHeight{
+    min-height: 80vh;
+}
+
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.address{
+    font-size: .8rem;
+}
+
+@media only screen and (min-width: 769px) {
+    .address{
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    .address{
+        font-size: 1rem;
+    }
+}
